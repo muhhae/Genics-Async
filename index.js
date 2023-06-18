@@ -18,4 +18,4 @@ poke.forEach(pokemon => {
     console.log("Try to fetch data for", pokemon);
     fetchData(PokeApi, pokemon);
     console.log("Still in process fetching", pokemon);
-})
+});
